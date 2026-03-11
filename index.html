@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="card">
+            <div class="sub-card">
+                <h1 class="card-title">HOME</h1>
+                <div id="HOME-screen">0</div>
+                <div class="point-btn">
+                    <button class="score-btn" id="H-inc_1" onclick="inc1H()">+1</button>
+                    <button class="score-btn" id="H-inc_2" onclick="inc2H()">+2</button>
+                    <button class="score-btn" id="H-inc_3" onclick="inc3H()">+3</button>
+                </div>
+            </div>
+            <div class="sub-card">
+                <h1 class="card-title">GUEST</h1>
+                <div id="GUEST-screen">0</div>
+                <div class="point-btn">
+                    <button class="score-btn" id="G-inc_1" onclick="inc1G()">+1</button>
+                    <button class="score-btn" id="G-inc_2" onclick="inc2G()">+2</button>
+                    <button class="score-btn" id="G-inc_3" onclick="inc3G()">+3</button>
+                </div>
+            </div>
+            <div>
+                <button id="reset-btn" onclick="reset()">RESET</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

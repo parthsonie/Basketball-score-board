@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('digital-7.regular.ttf') format('truetype');
+}
+body{
+    text-align: center;
+    background-image: url(background.png);
+    background-size: cover;
+}
+#card{
+    display: flex;
+    border: 1px solid blue;
+    width: 400px;
+    height: 300px;
+    justify-content: space-evenly;
+    margin: auto ;
+    background: #191e41;
+    border-radius: 20px;
+}
+.card-title{
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+#HOME-screen{
+    background: black;
+    width: 130px;
+    height: 150px;
+    border-radius: 5px;
+    font-family: MyFont;
+    color: #e73260;
+    font-size: 100px;
+}
+#GUEST-screen{
+    background: black;
+    width: 130px;
+    height: 150px;
+    border-radius: 5px;
+    font-family: MyFont;
+    color: #e73260;
+    font-size: 100px;
+}
+.point-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.score-btn{
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    /* text-align: center; */
+    margin-top: 20px;
+    font-family: MyFont;
+    color: white;
+    background: #191e41;
+    border-radius: 3px;
+}
+#reset-btn{
+    background: red;
+    color: white;
+    margin-top: 140px;
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
